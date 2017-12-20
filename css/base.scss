@@ -1,0 +1,47 @@
+---
+---
+
+$hover: #ffff9e;
+
+$breakpoint-sm: '(min-width: 800px)';
+$breakpoint-md: '(min-width: 1050px)';
+$breakpoint-lg: '(min-width: 1400px)';
+
+/* Base */
+/* ----------------------------------------------------------*/
+
+@import 'base-reset.scss';
+@import 'typography.scss';
+@import 'responsive-states.scss';
+@import 'utility-white-space.scss';
+@import 'utility-layout.scss';
+@import 'grid.scss';
+
+
+/*
+body {
+  cursor: url(/images/pointer.png), auto;
+}
+*/
+
+
+.img-shadow {
+box-shadow: 0px 0px 10px 3px #bcbcbc;
+background-color: white;
+}
+
+.full-width img {
+width: 100%;
+}
+
+.max-width {
+	max-width: 1200px;
+}
+
+.bg-grey {
+	background-color: #F3F3F3;
+}
+
+.border-bottom {
+	border-bottom: 10px solid #E4E4E4;
+}
