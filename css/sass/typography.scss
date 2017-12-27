@@ -2,7 +2,7 @@ h1 {
 	font-size: 24px;
 	font-family: 'Roboto', 'helvetica';
 	font-weight: 500;
-	line-height: 37px;
+	line-height: 34px;
 }
 
 h2 {
@@ -33,3 +33,9 @@ p a {
 p a:hover {
 	    border-bottom: none;
 	}
+
+p.back-button a {
+	font-size: 12px;
+	color: #777;
+	text-decoration: none;
+}
