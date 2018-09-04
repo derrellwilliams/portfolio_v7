@@ -380,6 +380,62 @@ $space-6: 6rem !default;
   padding-bottom: $space-4;
 }
 
+@media #{$breakpoint-sm} {
+
+.sm-p1 {
+  padding-left: $space-1;
+  padding-right: $space-1;
+  padding-top: $space-1;
+  padding-bottom: $space-1;
+}
+
+.sm-p2 {
+  padding-left: $space-2;
+  padding-right: $space-2;
+  padding-top: $space-2;
+  padding-bottom: $space-2;
+}
+
+.sm-pl0 {
+  padding-left: 0px;
+}
+
+.sm-pl1 {
+  padding-left: $space-1;
+}
+
+.sm-pl2 {
+  padding-left: $space-2;
+}
+
+.sm-pl3 {
+  padding-left: $space-3;
+}
+
+.sm-pl4 {
+  padding-left: $space-4;
+}
+
+.sm-pr0 {
+  padding-right: 0px;
+}
+
+.sm-pr1 {
+  padding-right: $space-1;
+}
+
+.sm-pr2 {
+  padding-right: $space-2;
+}
+
+.sm-pr3 {
+  padding-right: $space-3;
+}
+
+.sm-pr4 {
+  padding-right: $space-4;
+}
+}
 
 @media #{$breakpoint-md} {
 
