@@ -79,6 +79,10 @@ $space-6: 6rem !default;
   margin: $space-3;
 }
 
+.mtminus1 {
+  margin-top: -4px;
+}
+
 .mt3 {
   margin-top: $space-3;
 }
@@ -113,6 +117,14 @@ $space-6: 6rem !default;
 
 .ml4 {
   margin-left: $space-4;
+}
+
+.ml5 {
+  margin-left: $space-5;
+}
+
+.mr5 {
+  margin-right: $space-5;
 }
 
 .mb5 {
@@ -491,6 +503,22 @@ $space-6: 6rem !default;
 
 .md-pr4 {
   padding-right: $space-4;
+}
+
+.md-mr3 {
+  padding-right: $space-3;
+}
+
+.md-mr4 {
+  padding-right: $space-4;
+}
+
+.md-ml3 {
+  padding-left: $space-3;
+}
+
+.md-ml4 {
+  padding-left: $space-4;
 }
 }
 

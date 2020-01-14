@@ -1,7 +1,7 @@
 ---
 ---
 
-$hover: #ffff9e;
+$hover: #ffffff;
 
 $breakpoint-sm: '(min-width: 350px)';
 $breakpoint-md: '(min-width: 950px)';
@@ -18,9 +18,11 @@ $breakpoint-lg: '(min-width: 1400px)';
 @import 'grid.scss';
 
 
+
 /*
 body {
   cursor: url(/images/pointer.png), auto;
+  background-color: #81815C;
 }
 */
 
@@ -38,9 +40,31 @@ width: 100%;
 	max-width: 1200px;
 }
 
-.bg-grey {
-	background-color: #F3F3F3;
+.bg-tan {
+	background-color: #DBD9CE;
 }
+
+.bg-olive {
+	background-color: #81815C;
+}
+
+#top, #bottom, #left, #right {
+	background: #ffffff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
 
 .border-bottom {
 	border-bottom: 10px solid #E4E4E4;
