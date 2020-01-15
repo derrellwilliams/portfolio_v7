@@ -1,28 +1,30 @@
 ---
-layout: default
+layout: project
 ---
-<div class="container mt4">
+<div class="bg-tan pt4 pb3">
+<div class="container">
   <p class="back-button"><a href="/etsy">← Back to Work</a></p>
   <div class="clearfix">
-    <div class="col lg-col-6 md-col-7 sm-col-12 lg-pr4 md-pr4 sm-pr0">
-      <h2 class="mt0 mb1"> Exploratory Search </h2>
+    <div class="col lg-col-7 md-col-8 sm-col-12 lg-pr4 md-pr4 sm-pr0">
+      <h1 class="mt0 mb1 dark bold"> Exploratory Search </h1>
         <div class="clearfix">
-          <div class="col col-3">
+          <div class="col col-4">
             <div class= "border-bottom"></div>
           </div>
         </div>
-      
-        <div class="pt2">
+      <div>
           <p>This project was ongoing for most of my time that I was working on search at Etsy and is still an ongoing project, so some newer details I have purposely left out. Hopefully it illustrates how I like to work as a product designer.</p>
-          <h3 class="mt3">The problem</h3>
+          <p class="bold">The problem</p>
           <p>After working with my engineering partners we discovered that a sizable portion of searches on Etsy are broad queries that are lower converting than higher-intent queries. Our team of researchers had also seen this behavior and it mapped to a prominent user persona that we build our products for.</p>
           <p>An example of a broad query is something like “silver jewelry,” which gets 7.74M search results on Etsy today. No matter how good we are at ranking results, the universe of silver jewelry is simply so vast that the chances we show you something you like are pretty slim.</p>
-          <p class="bold">How can we help Etsy users narrow down searches to something more specific, in order to give them a real chance at finding what they are looking for?</p>
+          <p>How can we help Etsy users narrow down searches to something more specific, in order to give them a real chance at finding what they are looking for?</p>
         </div>
-
     </div>
   </div>
+</div>
+</div>
 
+<div class="container">
   <div class="clearfix">
     <div class="col lg-col-12 md-col-12 sm-col-12 mt3">
       <img class="full-width mt2" data-echo="/images/esearch/01.jpg">
@@ -30,9 +32,9 @@ layout: default
   </div>
 
   <div class="clearfix">
-    <div class="col lg-col-7 md-col-8 sm-col-12 lg-pr4 md-pr4 sm-pr0">
+    <div class="col lg-col-10 md-col-9 sm-col-12 mt3">
       <div class="pt2">
-        <h3 class="mt3">Exploration</h3>        
+        <p class="bold">Exploration</p>        
         <p>The search team and I decided that grouping items into their respective categories seemed like an obvious starting place, but we also wanted to explore how to group the items by any number of dimensions like style, color, and material. We wanted to start with a small test so we decided just to focus on showing the most popular categories for these broad queries to help users narrow down their search. </p>
         <p>The solution we came up with was that when a user enters a query, we run a few calculations about the diversity of the result set between categories to determine the intent of the search. If it’s spread evenly across several categories, we could generally infer that it’s a low-intent query. If it's proven to be low-intent, we show a group of selected subcategories that help the user dive depper and narrow down the search.</p>
         <p>This is when I, as the designer on the team, broke off from the bigger team discussions to start wireframing possible ways to insert categories into the search results page. I came up with two questions to solve: Where should these categories live on the page, and what should they contain and look like? At this stage of the process, I tried to keep things as loose as possible and not be caught up on pixels or certain ideas.</p>
@@ -48,8 +50,8 @@ layout: default
   </div>
 
   <div class="clearfix">
-      <div class="col lg-col-7 md-col-8 sm-col-12 lg-pr4 md-pr4 sm-pr0">
-        <div class="pt2">
+    <div class="col lg-col-10 md-col-9 sm-col-12 mt3">
+        <div class="pt1">
           <p>Understanding where on the page to put these subcategories came down to trying to understand the information architecture in relation to the other content on the page. Is this feature the most important? Do we need every user to interact with it? Or should it feel embedded in the current experience?</p>
           <p>It also was a question of what type of content is this and should it be grouped in with similar content. For example, if our goal was just categories, it almost felt like our category tree filter. How are those two things similar or dissimilar? To a user they could feel exactly the same.</p>
         </div>
@@ -57,13 +59,13 @@ layout: default
     </div>
 
   <div class="clearfix">
-    <div class="col lg-col-10 md-col-12 sm-col-12 mt3">
+    <div class="col lg-col-12 md-col-12 sm-col-12 mt3">
      <img class="full-width mt2" data-echo="/images/esearch/3.jpg">
     </div>
   </div>
 
   <div class="clearfix">
-      <div class="col lg-col-7 md-col-8 sm-col-12 lg-pr4 md-pr4 sm-pr0">
+    <div class="col lg-col-10 md-col-9 sm-col-12 mt3">
         <div class="pt2">
           <p>When coming up with the architecture of the actual content we settled on a card-type pattern, but I had a list of questions I needed to answer in order to make the right decisions. Some of the questions were:</p>
           <ul>
@@ -88,7 +90,7 @@ layout: default
   </div>
 
   <div class="clearfix">
-      <div class="col lg-col-12 md-col-12 sm-col-12 lg-pr4 md-pr4 sm-pr0">
+    <div class="col lg-col-10 md-col-9 sm-col-12 mt3">
         <div class="pt2">
           <p>Although our first experiment was on desktop, we had plans to release this on mobile web, Android and iOS, so I kept wireframing the same types of ideas on mobile at the same time as desktop.</p>
           <p>Some of the questions I was working to solve for mobile were:</p>
@@ -107,9 +109,9 @@ layout: default
     </div>
 
   <div class="clearfix">
-      <div class="col lg-col-7 md-col-8 sm-col-12 lg-pr4 md-pr4 sm-pr0">
+      <div class="col lg-col-10 md-col-9 sm-col-12 lg-pr4 md-pr4 sm-pr0">
         <div class="pt2">
-        <h3 class="mt3">The research</h3>
+        <p class="bold">The research</p>
  
           <p>After working closely with my partner on our research team and the product manager on my team, we decided to step up the fidelity a notch so that we could create rough prototypes for some usability sessions.</p>
           <p>For the usability studies, I created three or four clickable prototypes aimed at answering some of the questions I previously posed about the placement and layout of the cards.</p>
@@ -131,7 +133,7 @@ layout: default
     <div class="clearfix">
       <div class="col lg-col-7 md-col-8 sm-col-12 lg-pr4 md-pr4 sm-pr0">
         <div class="pt2">
-          <h3 class="mt3">The findings</h3>        
+          <p class="bold">The findings</p>        
           <p>After getting a lot of good insight and answering almost all of our questions from our usability studies and research team, I brought back the knowledge to the search team and presented to them my learnings, and from there we launched our first experiment. We try to balance our decisions with qualitative and quantitative feedback as much as possible.</p>
           <p>A brief overview of some of the answers we got to our initial questions:</p>
           <ul>
@@ -157,9 +159,9 @@ layout: default
     </div>
 
     <div class="clearfix">
-      <div class="col lg-col-7 md-col-8 sm-col-12 lg-pr4 md-pr4 sm-pr0">
+      <div class="col lg-col-10 md-col-9 sm-col-12 lg-pr4 md-pr4 sm-pr0">
         <div class="pt2">
-          <h3 class="mt3">A new approach</h3>        
+          <p class="bold">A new approach</p>        
           <p>The gist of this new approach takes us back to the first flow where we constantly see users type in something broad, and then reforumulate that query to be more specific. We ran a few data jobs to better understand what queries users were reformulating and what reformulations converted the best. We then surfaced those reforumations to our users.</p>
           <p>Understanding how many to show, where to show them, and the best visual treatment to have the most impact, were all questions I set out to solve in the wireframe stage.</p>
           <p>We started to look at using more color and motion to tie in Etsy’s brand and to make a visual impact to get more interaction.</p>
@@ -179,8 +181,8 @@ layout: default
     </div>
 
     <div class="clearfix">
-      <div class="col lg-col-7 md-col-8 sm-col-12 lg-pr4 md-pr4 sm-pr0">
-        <div class="pt2">
+      <div class="col lg-col-10 md-col-9 sm-col-12 lg-pr4 md-pr4 sm-pr0">
+        <div class="pt2 pb4">
           <p>As I mentioned previously, a lot of this work is still being experimented and is unreleased, but hopefully this gives you a good insight into the iterative and data-driven design approach I like to take while working on a product like search at Etsy. </p>
           <p>And we will continue to experiment and iterate on different ideas, flows, and features to help our users narrow down their searches!</p>
         </div>
@@ -190,63 +192,40 @@ layout: default
 </div>
 
 
-<div class="clearfix bg-grey mt4">
+
+
+
+<div class="clearfix bg-tan mtminus1 ml5 mr5 mt4 md-ml4 md-mr4 sm-mr1 sm-ml1">
   <div class="container">
-      
-      <div class="clearfix col lg-col-5 md-col-5 sm-col-12 pt4">
-        <p>Check out some more of my work</p>
-
-        <div class="clearfix">
-          <div class="col col-4">
-            <div class= "border-bottom"></div>
-          </div>
-        </div>  
-      </div>
-
-      <div class="clearfix col col-12 mt3 mb5 pb3">
+    <div class="clearfix col col-12 mt3 mb2 pb2">
             <div class="clearfix">
-              <div class="col col lg-col-3 md-col-3 sm-col-12">
-                <h2><a href="/etsy">Etsy</a></h2>
+              <div class="col lg-col-4 md-col-4 sm-col-12 pr4">
+                <h4>2018-2020</h4>
+                <p>From late 2018 to early 2020, I was a lead designer for SoFi, a financial technology company helping users get their money right</p>
+                <p class="bold gray">Coming soon</p>
               </div>
-              <div class="col col lg-col-3 md-col-3 sm-col-12">
-                <h2><a href="/compass">Compass</a></h2>
+              <div class="col lg-col-4 md-col-4 sm-col-12 pr4">
+                <h4>2014-2018</h4>
+                <p>In 2014 I joined Etsy, where I was a Staff designer on the Search for about 4 years and the design systems team for nearly a year.</p>
+              <p class="bold"><a href="/etsy">Etsy work &rarr;</a></p>
+
               </div>
-              <div class="col col lg-col-3 md-col-3 sm-col-12">
-                <h2><a href="/assorted">Assorted projects!</a></h2>
+              <div class="col lg-col-4 md-col-4 sm-col-12 pr4">
+                <h4>2013-2014</h4>
+                <p>I was the first designer at Compass, where I was a part of all things design: branding, product, UI/UX, research, and product vision. </p>
+              <p class="bold"><a href="#">Compass work &rarr;</a></p>
+
               </div>
+
+              
             </div>
       </div>
-  
   </div>
 </div>
-
-
-<div class="clearfix mt2">
+<div class="clearfix bg-dark mt4">
   <div class="container">
-      
-      <div class="clearfix col lg-col-5 md-col-5 sm-col-12 pt4">
-        <p>Contactin' info</p>
-
-        <div class="clearfix">
-          <div class="col col-4">
-            <div class= "border-bottom"></div>
-          </div>
-        </div>  
-      </div>
-
-      <div class="clearfix col col-12 mt3 mb5 pb3">
-            <div class="clearfix">
-              <div class="col col lg-col-3 md-col-3 sm-col-12">
-                <h2><a href="mailto:derrellwilliams@gmail.com">Email</a></h2>
-              </div>
-              <div class="col col lg-col-3 md-col-3 sm-col-12">
-                <h2><a href="https://www.linkedin.com/in/matthewderrellwilliams/">Linkedin</a></h2>
-              </div>
-              <div class="col col lg-col-3 md-col-3 sm-col-12">
-                <h2><a href="https://www.instagram.com/derrellwilliams/">Instagram</a></h2>
-              </div>
-            </div>
-      </div>
-  
+    <div class="clearfix col col-12 mt3 mb2 pb3 pt1">
+        <h4 class="white center">With dark regards!</h4>
+    </div>
   </div>
 </div>

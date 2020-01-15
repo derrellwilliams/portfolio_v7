@@ -17,8 +17,6 @@ $breakpoint-lg: '(min-width: 1400px)';
 @import 'utility-layout.scss';
 @import 'grid.scss';
 
-
-
 /*
 body {
   cursor: url(/images/pointer.png), auto;
@@ -52,6 +50,14 @@ width: 100%;
 	background-color: #2B2B2B;
 }
 
+.bg-white {
+	background-color: #ffffff;
+}
+
+.rounded {
+	border-radius: 6px;	
+}
+
 #top, #bottom, #left, #right {
 	background: #DBD9CE;
 	position: fixed;
@@ -78,8 +84,8 @@ width: 100%;
 		top: 0; bottom: 0;
 		width: 15px;
 		}
-		#left { left: 0; }
-		#right { right: 0; }
+		#left-olive { left: 0; }
+		#right-olive { right: 0; }
 		
 	#top-olive, #bottom-olive {
 		left: 0; right: 0;
@@ -87,27 +93,3 @@ width: 100%;
 		}
 		#top-olive { top: 0; }
 		#bottom-olive { bottom: 0; }
-
-a.border-bottom-dark {
-	border-bottom: 4px solid #000000;
-	display: inline-block;
-	line-height: 40px;
-}
-
-.border-bottom-tan {
-	border-bottom: 4px solid #DBD9CE;
-	display: inline-block;
-	line-height: 42px;
-
-}
-
-.border-bottom-tan a:hover {
-    border-bottom: 4px solid black;
-    color: black;
-    transition: .2s;
-
-}
-
-.rounded {
-	border-radius: 6px;	
-}
