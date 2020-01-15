@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body class="bg-tan">
+      <div id="left-olive"></div>
+      <div id="right-olive"></div>
+      <div id="top-olive"></div>
+      <div id="bottom-olive"></div>
+
+
+      {{ content }}
+
+
+    <!-- lazyload.js -->
+    <script src="/javascripts/lazyload.js"></script>
+    <script>
+    echo.init({
+      offset: 850,
+      throttle: 300,
+      unload: false,
+      callback: function (element, op) {
+        console.log(element, 'has been', op + 'ed')
+      }
+    });
+    </script>
+
+
+    </body>
+</html>
