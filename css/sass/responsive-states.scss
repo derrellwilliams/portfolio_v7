@@ -3,12 +3,6 @@
 
 /* Basscss Utility Responsive States */
 
-.sm-show,
-.md-show,
-.lg-show {
-  display: none !important;
-}
-
 @media #{$breakpoint-sm} {
   .sm-show {
     display: block !important;
