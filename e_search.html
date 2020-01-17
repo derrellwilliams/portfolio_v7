@@ -13,10 +13,10 @@ layout: project
           </div>
         </div>
       <div>
-          <p>*Warning: This goes into a lot of detail, hopefully it gives you an idea of how I think of product design!*
-          <p>This project was ongoing for most of my time that I was working on search at Etsy and is still an ongoing project, so some newer details have been left out and they have made good progress on this journey after my departure.</p>
-          <p>After working with my engineering partners we discovered that a sizable portion of searches on Etsy are broad queries that are lower converting than higher-intent queries. Our team of researchers had also seen this behavior and it mapped to a prominent user persona that we built our products for.</p>
-          <p>An example of a broad query is something like “silver jewelry,” which gets 7.74M search results on Etsy today. No matter how good we are at ranking results, the universe of silver jewelry is simply so vast that the chances we show you something you like are pretty slim.</p>
+          <p>*Warning: This page goes into a lot of detail. Hopefully it gives you an idea of how I think of product design!*
+          <p>This project was ongoing for most of my time spent working on search at Etsy and is still an ongoing project.</p>
+          <p>After working with engineering partners, the search team discovered that a sizable portion of searches on Etsy are broad queries that are lower converting than higher-intent queries. Our team of researchers had also seen this behavior and it mapped to a prominent user persona that we built our products for.</p>
+          <p>An example of a broad query is something like “silver jewelry,” which gets 7.74 million search results on Etsy today. No matter how good we are at ranking results, the universe of silver jewelry is simply so vast that the chances we show you something you like are pretty slim.</p>
           <p>How can we help Etsy users narrow down searches to something more specific, in order to give them a real chance at finding what they are looking for?</p>
         </div>
     </div>
@@ -36,9 +36,9 @@ layout: project
       <div class="pt2">
         <p class="bold">Exploration</p>        
         <p>The search team and I decided that grouping items into their respective categories seemed like an obvious starting place, but we also wanted to explore how to group the items by any number of dimensions like style, color, and material. We wanted to start with a small test so we decided just to focus on showing the most popular categories for these broad queries to help users narrow down their search. </p>
-        <p>The solution we came up with was that when a user enters a query, we run a few calculations about the diversity of the result set between categories to determine the intent of the search. If it’s spread evenly across several categories, we could generally infer that it’s a low-intent query. If it's proven to be low-intent, we show a group of selected subcategories that help the user dive depper and narrow down the search.</p>
-        <p>This is when I, as the designer on the team, broke off from the bigger team discussions to start wireframing possible ways to insert categories into the search results page. I came up with two questions to solve: Where should these categories live on the page, and what should they contain and look like? At this stage of the process, I tried to keep things as loose as possible and not be caught up on pixels or certain ideas.</p>
-        <p>The goal of these wireframes was to explore different options while being able to quickly communicate an idea or opportunity to my team, research partners, or leadership before heading towards higher fidelity mockups which could lead people to get distracted from the main problems I was trying to find answers to. </p>
+        <p>The solution we came up with was that when a user entered a query, we would run a few calculations about the diversity of the result set between categories to determine the intent of the search. If it’s spread evenly across several categories, we could generally infer that it’s a low-intent query. If it's proven to be low-intent, we show a group of selected subcategories that help the user dive depper and narrow down the search.</p>
+        <p>This is when I, as the designer on the team, broke off from the bigger team discussions to start wireframing possible ways to insert categories into the search results page. I came up with two questions to solve: Where should these categories live on the page, and what should they contain and look like? At this stage of the process, I tried to keep things as loose as possible and not get caught up on pixels.</p>
+        <p>The goal of these wireframes was to explore different options while being able to quickly communicate an idea or opportunity to my team, research partners or leadership before heading towards higher fidelity mockups. This avoided distraction from the main problems I was trying to find answers to.</p>
       </div>
     </div>
   </div>
@@ -52,8 +52,7 @@ layout: project
   <div class="clearfix">
     <div class="col lg-col-10 md-col-9 sm-col-12 mt3">
         <div class="pt1">
-          <p>Understanding where on the page to put these subcategories came down to trying to understand the information architecture in relation to the other content on the page. Is this feature the most important? Do we need every user to interact with it? Or should it feel embedded in the current experience?</p>
-          <p>It also was a question of what type of content is this and should it be grouped in with similar content. For example, if our goal was just categories, it almost felt like our category tree filter. How are those two things similar or dissimilar? To a user they could feel exactly the same.</p>
+          <p>Understanding where on the page to put subcategories came down to understanding the information architecture in relation to the other content on the page. Is this feature the most important? Do we need every user to interact with it, or should it feel embedded in the current experience?</p>
         </div>
       </div>
     </div>
@@ -69,11 +68,10 @@ layout: project
         <div class="pt2">
           <p>When coming up with the architecture of the actual content we settled on a card-type pattern, but I had a list of questions I needed to answer in order to make the right decisions. Some of the questions were:</p>
           <ul>
-            <li>Do we already have a pattern like this in our toolkit/style guide? If not, why? If so, why can’t we use that? (We didn’t and there had been some implementations of cards that were similar “collections” but nothing codified.)</li>
-            <li class="pt2">How could images help or detract from the goals of this project and how would we choose the image?</li>
+            <li>Is there already a pattern like this in the toolkit/style guide? If no, why not? If yes, why can’t we use that? (We didn’t and there had been some implementations of cards that were similar “collections” but nothing codified.)</li>
+            <li class="pt2">How could images help or detract from the goals of this project, and how would we choose the image?</li>
             <li class="pt2">What images do we have access to? What size or ratio are those images and how can we ensure they are high quality?</li>
-            <li class="pt2">Would one image not represent the uniqueness of a category on Etsy and dissuade users from engaging if they don’t like that image?</li>
-            <li class="pt2">Would one image not represent the uniqueness of a category on Etsy and dissuade users from engaging if they don’t like that image?</li>
+            <li class="pt2">Would one image misrepresent the uniqueness of a category on Etsy and dissuade users from engaging?</li>
             <li class="pt2">How much image needs to show if we do show them? Or is the image more of a texture or vibe we are trying to communicate?</li>
             <li class="pt2">Should we show sub-categories? What is the threshold of information that is useful before it becomes a noisy overload?</li>
           </ul> 
@@ -90,10 +88,10 @@ layout: project
   <div class="clearfix">
     <div class="col lg-col-10 md-col-9 sm-col-12 mt3">
         <div class="pt2">
-          <p>Although our first experiment was on desktop, we had plans to release this on mobile web, Android and iOS, so I kept wireframing the same types of ideas on mobile at the same time as desktop.</p>
+          <p>Although the first experiment was on desktop, there were plans to release this on mobile web, Android and iOS, so I kept wireframing the same types of ideas on mobile at the same time as desktop.</p>
           <p>Some of the questions I was working to solve for mobile were:</p>
           <ul>
-            <li>How much space do we want to take up? Is it similar to the answer we arrive on for desktop? The more space we take up, the farther down we push the listings, which we know hurts the experience from prior results.</li>
+            <li>How much space do we want to take up? Is it similar to the answer we arrived on for desktop? The more space we take up, the farther down we push the listings, which we know hurts the experience from prior results.</li>
             <li class="pt2">Do images become hard to comprehend at this small of size?</li>
           </ul>
         </div>
@@ -111,9 +109,9 @@ layout: project
         <div class="pt2">
         <p class="bold">The research</p>
  
-          <p>After working closely with my partner on our research team and the product manager on my team, we decided to step up the fidelity a notch so that we could create rough prototypes for some usability sessions.</p>
-          <p>For the usability studies, I created three or four clickable prototypes aimed at answering some of the questions I previously posed about the placement and layout of the cards.</p>
-          <p>For the prototype for the apps, I found a quick solution to get it up and running so that multiple outside users could use it as quickly as possible. I took some screenshots of the app chrome to fake the app navigation, and just built out the rest using our CSS toolkit, so that it could be a URL that participants in the usability study could just get to on their own phone. Most designers at Etsy help with our style guide, toolkit, and sticker sheet, and we are encouraged to write our own HTML and CSS, and push to production when it makes sense. </p>
+          <p>After working closely with my partner from the research team and the product manager, we decided to step up the fidelity a notch so that we could create rough prototypes for usability sessions.</p>
+          <p>For the usability sessions, I created three or four clickable prototypes aimed at answering some of the questions I had posed about the placement and layout of the cards.</p>
+          <p>For the prototype for the apps, I found a quick solution to get it up and running so that multiple people could use it as quickly as possible. I took some screenshots of the chrome to fake app navigation, and built out the rest using our CSS toolkit. Most designers at Etsy help with our style guide, toolkit and sticker sheet, and we are encouraged to write our own HTML and CSS, and push to production when it makes sense. </p>
         </div>
       </div>
     </div>
@@ -132,16 +130,16 @@ layout: project
       <div class="col lg-col-7 md-col-8 sm-col-12 lg-pr4 md-pr4 sm-pr0">
         <div class="pt2">
           <p class="bold">The findings</p>        
-          <p>After getting a lot of good insight and answering almost all of our questions from our usability studies and research team, I brought back the knowledge to the search team and presented to them my learnings, and from there we launched our first experiment. We try to balance our decisions with qualitative and quantitative feedback as much as possible.</p>
-          <p>A brief overview of some of the answers we got to our initial questions:</p>
+          <p>After getting a lot of good insight and answering almost all of our questions from our usability studies and research team, I brought back the results to the search team. From there we launched our first experiment. We tried to balance our decisions with qualitative and quantitative feedback as much as possible.</p>
+          <p>Here's a brief overview of some of the answers we got to our initial questions:</p>
           <ul>
-            <li>Images helped convey what the category was, but we needed to make sure the item showcased was easily found and for sale once clicked upon</li>
-            <li class="pt2">Showing the result count was overwhelming, generally the number was too high for a user to make much use of it</li>
-            <li class="pt2">Showing the subcategories seemed like a good direction but users were a bit confused with the layouts we showed, we put this on the "to explore list"</li>
-            <li class="pt2">On mobile in order for the user to recognize the horizontal side scroll, we tested a subtle animation which made it much more clear and discoverable</li>
+            <li>Images helped convey what the category was, but we needed to make sure the showcased item was easily found and still for sale.</li>
+            <li class="pt2">Showing the result count was overwhelming, generally the number was too high for a user to make much use of it.</li>
+            <li class="pt2">Showing the subcategories seemed like a good direction, but users were a bit confused with the layouts we showed.</li>
+            <li class="pt2">In order for the user to recognize the horizontal side scroll on mobile, we tested a subtle animation which made it much more clear and discoverable.</li>
           </ul>
-          <p>The bad news was we didn’t hit it out of the park from the first experiment. We saw some really strong signals that we were headed in the right direction, but we didn’t get a strong enough signal that we had it correct from our backend implementation side. That part of the team broke off and started to focus in on that with high hopes of fine tuning the backend.</p>
-          <p>In the meantime, the rest of the team decided we should try various strategies to solve the low-intent search problem. Here is one more approach we are working on that has performed really well for mobile web.</p>
+          <p>The bad news was we didn’t hit it out of the park from the first experiment. We saw some really strong signals that we were headed in the right direction, but didn’t get a strong enough signal that we had it correct from our backend implementation side. That part of the team broke off and started to focus in on that with high hopes of fine tuning the backend.</p>
+          <p>In the meantime, the rest of the team decided we should try various strategies to solve the low-intent search problem. Here is one more approach we are working on that has performed really well for mobile web:</p>
         </div>
       </div>
     </div>
@@ -160,10 +158,10 @@ layout: project
       <div class="col lg-col-10 md-col-9 sm-col-12 lg-pr4 md-pr4 sm-pr0">
         <div class="pt2">
           <p class="bold">A new approach</p>        
-          <p>The gist of this new approach takes us back to the first flow where we constantly see users type in something broad, and then reforumulate that query to be more specific. We ran a few data jobs to better understand what queries users were reformulating and what reformulations converted the best. We then surfaced those reforumations to our users.</p>
-          <p>Understanding how many to show, where to show them, and the best visual treatment to have the most impact, were all questions I set out to solve in the wireframe stage.</p>
-          <p>We started to look at using more color and motion to tie in Etsy’s brand and to make a visual impact to get more interaction.</p>
-          <p>We generally felt more optimistic about this treatment and thought it might have more impact and take up less real estate on the search page, while being more mobile friendly.</p>
+          <p>The gist of this new approach takes us back to the first flow where we constantly saw users type in something broad, and then reforumulate that query to be more specific. We ran a few data jobs to better understand what queries users were reformulating and what reformulations converted the best. We then surfaced those reforumations to our users.</p>
+          <p>Understanding how many to show, where to show them, and the best visual treatment to have the most impact were all questions I set out to solve in the wireframe stage.</p>
+          <p>We started to look at using more color and motion to tie in Etsy’s brand and to make a visual impact for more interaction.</p>
+          <p>We generally felt more optimistic about this treatment and thought it might have more impact and take up less real estate on the search page, all while being more mobile-friendly.</p>
         </div>
       </div>
     </div>
@@ -181,8 +179,8 @@ layout: project
     <div class="clearfix">
       <div class="col lg-col-10 md-col-9 sm-col-12 lg-pr4 md-pr4 sm-pr0">
         <div class="pt2 pb4">
-          <p>As I mentioned previously, a lot of this work is still being experimented and is unreleased, but hopefully this gives you a good insight into the iterative and data-driven design approach I like to take while working on a product like search at Etsy. </p>
-          <p>And I am sure Etsy will continue to experiment and iterate on different ideas, flows, and features to help their users narrow down their searches!</p>
+          <p>As I mentioned, a lot of this work is still being experimented and is unreleased, but hopefully this gives you a good insight into the iterative and data-driven design approach I like to take while working on a product like search at Etsy. </p>
+          <p>And I am sure Etsy will continue to experiment and iterate on different ideas, flows and features to help their users narrow down their searches.</p>
         </div>
       </div>
     </div>
